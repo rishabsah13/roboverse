@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Eduroboverse.ai</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Your custom CSS (if any) -->
+    <style>
+       body {
+        background: linear-gradient(to bottom, #2c3e50, #34495e); /* Dark gradient background */
+        color: #ffffff; /* White text color */
+      }
+
+      .navbar {
+        background: #343a40;
+        color: #ffffff; /* Set the text color for navbar links */
+      }
+
+      /* Set the height of the image to 500px */
+      .img-container {
+        max-height: 500px;
+        overflow: hidden;
+        background-color: #ffffff; /* Set the background color to white for this section */
+        margin-bottom: 20px; /* Adjust as needed to create space between the image and the next section */
+      }
+
+      /* Gradient background for the next section */
+      .gradient-section {
+        background: linear-gradient(to bottom, #f8f9fa 50%, #343a40 50%);
+        color: #ffffff; /* Set the text color to white */
+        text-align: center; /* Center the text */
+        padding: 40px 0; /* Adjust padding as needed */
+      }
+
+      /* Centered heading for the new section */
+      .centered-heading {
+        text-align: center;
+        margin-bottom: 20px; /* Adjust as needed */
+      }
+
+      /* Images and text section */
+      .image-text-section {
+        text-align: center;
+      }
+
+      .image-text-section img {
+        max-width: 250px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      /* Image Section */
+      .image-section {
+        text-align: center;
+      }
+
+      .image-section img {
+        max-width: 100%; /* Make the image responsive */
+        height: auto;
+      }
+
+      /* Two-column layout */
+      .two-column-section {
+        text-align: center;
+      }
+
+      .two-column-section .row {
+        margin-top: 20px;
+      }
+
+      .two-column-section img {
+        max-width: 300px;
+        height: auto;
+      }
+ .testimonial {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .testimonial-content {
+    margin-bottom: 15px;
+  }
+
+  .testimonial-author {
+    text-align: right;
+    color: #777;
+  }
+   form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  form label {
+    font-weight: bold;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+ #accordion {
+    margin-top: 20px;
+  }
+   .logo {
+    background-color: #4CAF50; /* Green color */
+    color: #ffffff; /* White color for text */
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+      body {
+        background-color: #f8f9fa; /* Light gray background */
+        color: #343a40; /* Set the text color */
+      }
+
+      .text-center-container {
+        text-align: center;
+        padding: 20px; /* Adjust padding as needed */
+      }
+
+      .text-center-container a {
+        color: #ffffff; /* White color for text */
+        text-decoration: none;
+      }
+        .img-container {
+        border-radius: 20px; /* Set the border radius as needed */
+        overflow: hidden;
+      }
+        .navbar {
+    height: 120px; /* You can adjust the height as needed */
+  }
+
+  /* Centering the logo vertically */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  @media (max-width: 576px) {
+  /* Small devices (576px and below) */
+  .centered-heading {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Medium devices (577px to 768px) */
+  .centered-heading {
+    font-size: 28px; /* Adjust the font size as needed */
+    margin-bottom: 15px; /* Adjust the margin as needed */
+  }
+}
+
+/* Add more media queries for larger screen sizes if necessary */
+
+
+      /* Add more custom styles as needed */
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <!-- Your Logo Section -->
+    <div class="logo">EduRoboverse.ai</div>
+    <!-- End of Logo Section -->
+    
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <!-- Add your navigation links here -->
+      <!-- <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li> -->
+    </ul>
+  </div>
+</nav>
+
+    <!-- Image Section -->
+       <section class="container mt-5">
+      <div class="row">
+        <div class="col-12 text-center img-container">
+          <img
+            src="./assets/img2.jpeg"
+            alt="Eduroboverse Image"
+            class="img-fluid rounded"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Next Section -->
+<div class="text-center-container bg-dark p-4">
+  <a href="#" class="navbar-brand text-white">
+    <span class="d-inline d-md-none">“India's Best Robotics, Coding & AI Lab”</span>
+    <span class="d-none d-md-inline">“India's Best Robotics, Coding & Artificial Intelligence Lab Turnkey Solution Provider for Schools”</span>
+  </a>
+</div>
+
+    <section class="container image-text-section">
+      <div class="row">
+     <div class="col-12">
+  <h2 class="centered-heading mt-5 mb-4 text-white">
+    Experiential & Innovation Learning Labs Solutions For Schools
+  </h2>
+</div>
+
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-3">
+          <img src="./assets//img1.jpeg" alt="Image 1" />
+          <p class="text-white">Robotics & AI lab</p>
+        </div>
+        <div class="col-md-3">
+          <img src="./assets//img5.jpeg" alt="Image 2" />
+          <p class="text-white">Coding & Electronics Lab</p>
+        </div>
+        <div class="col-md-3">
+          <img src="./assets//img6.jpeg" alt="Image 3" />
+          <p class="text-white">Tinkering Lab</p>
+        </div>
+        <div class="col-md-3">
+          <img src="./assets/img5.jpeg" alt="Image 4" />
+          <p class="text-white">STEM & STEAM Lab</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container image-section mt-5">
+      <div class="row mt-5">
+        <div class="col-12">
+          <img src="./assets//yellow.png" alt="Next Section Image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container two-column-section">
+      <div class="row">
+  <div class="col-11">
+    <h2 class="centered-heading mt-4 mb-3 text-white">Amazing Features of Innovation Lab</h2>
+  </div>
+</div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <li class="mb-3 text-white">
+              Robotics, Electronics, Coding, Artificial Intelligence, DIY Kits
+            </li>
+            <li class="mb-3 text-white">An interactive coding and simulation platform</li>
+            <li class="mb-3 text-white">In-house dedicated facilitator for the lab</li>
+            <li class="mb-3 text-white">
+              Curriculum and lesson plans aligned with NEP 2020
+            </li>
+            <li class="mb-3 text-white">An unified self-paced learning platform</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="./assets//img6.jpeg" alt="Two-Column Image" />
+        </div>
+      </div>
+    </section>
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="centered-heading ml-5 text-white">
+            Student's Learning Journey In The Lab
+          </h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12">
+          <img
+            src="assets/useit.png"
+            alt="New Section Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="centered-heading ml-5 text-white">Technologies Covered</h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12">
+          <img
+            src="./assets/green2.png"
+            alt="New Section Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="centered-heading ml-5 text-white">Benefits For Schools</h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12">
+          <img
+            src="./assets/schools.png"
+            alt="New Section Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="centered-heading ml-5 text-white">
+            Our students will learn advanced robotics and AI.
+          </h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-6">
+          <img
+            src="./assets/img8.jpeg"
+            alt="New Section Image"
+            class="img-fluid"
+          />
+  
+      </div>
+
+        <div class="col-6">
+          <img
+            src="./assets/img4.jpeg"
+            alt="New Section Image"
+            class="img-fluid"
+          />
+
+      </div>
+    </section>
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="centered-heading ml-5 text-white">We Are Looking For A Partnership With</h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12">
+          <img
+            src="./assets/three.png"
+            alt="New Section Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+<section class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="centered-heading text-white">
+        Latest News about EduRoboverse.ai
+      </h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <!-- Newspaper Article 1 -->
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?robotics,ai" class="card-img-top" alt="Article 1 Image">
+        <div class="card-body">
+          <h5 class="card-title text-white">Transforming Education with Robotics</h5>
+          <p class="card-text">EduRoboverse.ai is revolutionizing education by integrating robotics into the curriculum. Learn how our innovative approach is shaping the future of learning.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <!-- Newspaper Article 2 -->
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?artificial-intelligence,education" class="card-img-top" alt="Article 2 Image">
+        <div class="card-body">
+          <h5 class="card-title">AI in Education: The Eduroboverse.ai Impact</h5>
+          <p class="card-text">Explore how Eduroboverse.ai is leveraging artificial intelligence to personalize learning experiences, making education more engaging and effective.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <!-- Newspaper Article 3 -->
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?coding,technology" class="card-img-top" alt="Article 3 Image">
+        <div class="card-body">
+          <h5 class="card-title">Empowering Students Through Coding</h5>
+          <p class="card-text">Discover how Eduroboverse.ai is empowering students to become future-ready by providing comprehensive coding education. Join us in the coding revolution!</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="centered-heading text-white">
+        What Our Clients Say
+      </h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <!-- Testimonial 1 -->
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <p>"EduRoboverse.ai has been instrumental in transforming our approach to education. The integration of robotics and AI has sparked a new level of engagement among our students. Highly recommended!"</p>
+        </div>
+        <div class="testimonial-author">
+          <p><strong>John Doe</strong><br>Principal, ABC School</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <!-- Testimonial 2 -->
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <p>"As a parent, I've seen the positive impact of Eduroboverse.ai on my child's learning journey. The combination of robotics and coding has made learning fun and educational. Thank you for this innovative platform!"</p>
+        </div>
+        <div class="testimonial-author">
+          <p><strong>Jane Smith</strong><br>Parent</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <!-- Testimonial 3 -->
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <p>"Eduroboverse.ai provides a comprehensive solution for schools looking to embrace the future of education. The support and resources offered have made the implementation of AI and robotics seamless for our institution."</p>
+        </div>
+        <div class="testimonial-author">
+          <p><strong>Dr. Michael Johnson</strong><br>School Administrator</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="centered-heading text-white">
+        Contact Us
+      </h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <!-- Contact Form -->
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="centered-heading text-white">
+        Frequently Asked Questions
+      </h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <!-- FAQ Accordion -->
+      <div id="accordion">
+        <!-- FAQ Item 1 -->
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Question 1: What services does Eduroboverse.ai offer?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              Answer: Eduroboverse.ai offers a range of services including robotics education, AI integration in schools, and coding programs.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Question 2: How can schools enroll in Eduroboverse.ai programs?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              Answer: To enroll your school, please visit our enrollment page on the website or contact our support team for assistance.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Question 3: Are there discounts for bulk subscriptions with Eduroboverse.ai?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              Answer: Yes, Eduroboverse.ai offers discounts for bulk subscriptions. Please get in touch with our sales team to discuss your requirements.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Question 4: Is coding a part of Eduroboverse.ai programs?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              Answer: Yes, Eduroboverse.ai provides comprehensive coding education as part of its programs.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Question 5: How can I get in touch with Eduroboverse.ai support?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body">
+              Answer: You can contact Eduroboverse.ai support through our website or by emailing support@eduroboverse.ai.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 6 -->
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Question 6: Can Eduroboverse.ai customize programs for specific school needs?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+              Answer: Yes, Eduroboverse.ai can customize programs to meet the specific needs and requirements of individual schools.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-dark text-white mt-5 py-4">
+  <div class="container text-center">
+    <div class="row">
+      <!-- Logo -->
+    <div class="col-md-4 mb-4 mb-md-0">
+        <!-- Updated Logo Section -->
+        <div class="logo">EduRoboverse.ai</div>
+        <!-- End of Updated Logo Section -->
+      </div>
+      <!-- Contact Information -->
+      <div class="col-md-4 mb-4 mb-md-0">
+        <h5>Contact Us</h5>
+        <p><i class="fas fa-phone"></i> Phone: +918800783937</p>
+        <p><i class="fas fa-envelope"></i> Email: info@eduroboverse.ai</p>
+        <p><i class="fas fa-map-marker-alt"></i> Address: Gaur City, Noida, India</p>
+      </div>
+
+      <!-- Copyright and Links -->
+      <div class="col-md-4">
+        <h5>Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Shipping and Delivery</a></li>
+          <li><a href="#">Cancellation & Refund</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <!-- Copyright and Email -->
+        <p class="mt-3">&copy; 2023 EduRoboverse.ai All Rights Reserved.</p>
+        <p><i class="fas fa-envelope"></i> Email: support@eduroboverse.in
+
+
+
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <!-- Your custom scripts (if any) -->
+    <!-- <script src="scripts.js"></script> -->
+  </body>
+</html>
